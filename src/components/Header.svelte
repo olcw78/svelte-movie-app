@@ -9,19 +9,6 @@
 </header>
 
 <style lang="scss">
-  header {
-    display: flex;
-    width: 50%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-
-    a {
-      font-size: 3rem;
-      padding: 0 2rem;
-    }
-  }
-
   header :global(a.active) {
     color: red;
   }
