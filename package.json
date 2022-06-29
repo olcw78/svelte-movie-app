@@ -24,6 +24,7 @@
     "svelte-hmr": "^0.14.12"
   },
   "dependencies": {
+    "rxjs": "^7.5.5",
     "svelte-spa-router": "^3.2.0"
   },
   "browserslist": [
