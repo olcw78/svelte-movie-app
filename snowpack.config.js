@@ -1,11 +1,9 @@
 const isProduction =
   process.env.NODE_ENV?.toLowerCase() === 'production'
 
-function babelOptions() {
-  return {
-    plugins: isProduction ? ['transform-remove-console'] : []
-  }
-}
+const babelOptions = () => ({
+  plugins: isProduction ? ['transform-remove-console'] : []
+})
 
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
